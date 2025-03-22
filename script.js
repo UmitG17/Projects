@@ -1,0 +1,4 @@
+contentAc()
+{
+    if(document.getElementById==)
+}

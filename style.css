@@ -1,0 +1,441 @@
+div{border: 0px,solid,black;background-color: #ff000000}
+
+a:link{color: rgb(255, 255, 255);}
+a:visited{color: rgb(255, 255, 255);}
+a:hover{color: rgb(142, 142, 142);}
+a:active{color: rgb(255, 255, 255);}
+a{text-decoration : none;}
+
+
+.arrows{
+    border: 0,solid,black;
+    height: 80px;
+    width: 80px;
+    background-image: url(images/DownArrow1.png);
+    background-size: 100%;
+    right: 50px;
+    top: 10%;
+    rotate: 180deg;}
+.coffeebg{
+    width: 80%;
+    height: 100px;
+    border: 0px,black,solid;
+    border-radius: 20px;
+    position: absolute;
+    color: white;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    left: 10%;}
+.cphotodisplay{
+    top: 0%;
+    width: 70%;
+    height: 100px;
+    position: absolute;
+    left: 15%;
+    border-radius: 40px;
+    background-size: 100%;
+    background-position: -1px,1px;}
+.cofphoto{
+border: 0px,solid,black;
+width: 400px;
+height: 400px;
+background-color: white;
+position: absolute;
+left:20px;
+top: 75px;
+border-radius: 20px;
+background-size: 100%;}
+.cofcontent{
+    border: 0px solid black;
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top: 140px;
+    left: 10%;
+    border-radius: 20px;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 0%;    }
+
+.chinttarea{
+border: 0px,solid,black;
+width: 990px;
+height: 400px;
+background-color: white;
+position: absolute;
+left:500px;
+top: 75px;
+border-radius: 25px;
+color: black;
+text-align: left;
+font-size: 20px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-left: 10px;}
+
+.coftext{
+    font-family:sans-serif,Arial,'Arial Narrow','Franklin Gothic Medium',   ;
+    font-size: 40px;
+    font-style: italic ;
+    position: absolute;
+    left: 2%;
+    top: -15px;
+}
+/*///////////////////////////GENEL//////////////////////////////////*/
+body{
+    
+    background-image: url(images/coffeebackground.png);
+    background-size: 10%;
+    background-color: rgb(78, 39, 0);}
+button{
+    background-color: #ff000000;
+    border: 0px;
+    color: white;
+    position: absolute;}
+/*///////////////////////////Başlık Tasarımları//////////////////////////////////*/
+#backdiv{
+    border: 0px,black,solid;
+    width: 84%;
+    height:335%;
+    position: absolute;
+    left: 8%;
+    top: 7%;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.373);
+    color: white;}
+.ciztext{
+    border: 3px,black;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-style: solid;
+    font-size: 20px;}
+
+#titlediv{
+    
+    width: 100%;
+    height: 50px;
+    background-color: rgb(47, 23, 0);
+    /*position:absolute;*/
+    left: 0px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    border: 3px;
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-style: solid;
+    color: white;}
+
+#intitlediv{
+    
+    width: 80%;
+    height: 70px;
+    position:absolute;
+    left: 10%;
+    top: -15px;}
+
+#rightdiv{
+    width: 40%;
+    height: 70px;
+    background-color: rgba(255, 0, 0, 0);
+    position:absolute;
+    right:0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    font-size: 25px;}
+
+#circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    position:absolute;
+    left: 170px;
+    top: 25.5px;
+    float: left;
+    background-image: url(images/buyutec.png);
+    background-size: 100%;}
+
+#lefttarea{
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    left: 190px;
+    top: 5%;
+    background-color: rgba(255, 255, 255, 0);}
+
+#CFhints{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 24px;}
+/*//////////////////////////////ESPRESSO//////////////////////////////////*/
+#espresso{   
+    top: 10%;
+    background-color: rgb(138, 83, 0);}
+
+#inespresso{
+    background-image: url(images/espresso.jpeg);}
+
+#escontent{
+    color: white;
+    display: block;
+    background-color: rgb(185, 138, 68);}
+
+#esphoto{
+background-image: url(images/espressofoto.jpeg);}
+
+/*//////////////////////////////AMERİCANO//////////////////////////////////*/
+#americano{   
+    left: 10%;
+    top: 65%;
+    background-color: rgb(53, 32, 0);
+    display: block;}
+
+#inamericano{
+    background-image: url(images/americano.jpeg);}
+
+#amecontent{
+    
+    top: 69%;
+    background-color: rgb(84, 50, 0);
+    color: white;
+    display: block;}
+    
+#amephoto{
+    background-image: url(images/americanofoto.jpeg);}
+
+/*//////////////////////////////LATTE//////////////////////////////////*/
+
+#latte{   
+    top: 120%;
+    background-color: rgb(189, 157, 109);
+    display: block;}
+
+#inlatte{
+    background-image: url(images/latte.jpeg);}
+
+#lacontent{
+    background-color: rgb(223, 188, 136);
+    color: white;
+    display: block;
+    top: 124%;}
+
+#laphoto{
+    background-image: url(images/lattemasa.jpeg);}
+
+/*/////////////////////////MOCHA///////////////////////////////////////*/
+
+#mocha{   
+    top: 175%;
+    background-color: rgb(102, 61, 0);
+    display: block;}
+
+#inmocha{
+    background-image: url(images/mochaust.jpeg);}
+
+#mocontent{
+    background-color: rgb(123, 74, 0);
+    color: white;
+    display: block;
+    top: 179%;}
+
+#mophoto{
+    background-image: url(images/mochamasa1.jpeg);}
+
+/*/////////////////////////MACCHİATO///////////////////////////////////////*/
+
+#macchiato{   
+    top: 230%;
+    background-color: rgb(206, 122, 13);
+    display: block;}
+
+#inmac{
+    background-image: url(images/macust.jpeg);}
+
+#macontent{
+    background-color: rgb(233, 216, 180);
+    color: white;
+    display: block;
+    top: 234%;}
+
+#maphoto{
+    background-image: url(images/macmasa.jpeg);}
+
+/*/////////////////////////CAPPUCCİNO///////////////////////////////////////*/
+
+#cappuccino{   
+    top: 285%;
+    background-color: rgb(130, 80, 33);
+    display: block;}
+
+#incap{
+    background-image: url(images/capust.jpeg);}
+
+#cacontent{
+    background-color: rgb(181, 129, 83);
+    color: white;
+    display: block;
+    top: 289%;}
+
+#caphoto{
+    background-image: url(images/capmasa.jpeg);}
+
+
+ /*//////////////////////////SEARCH BAR//////////////////////////////////////*/
+#searchdiv{
+border: 1px,solid,black;
+border-radius: 25px;
+height: 30px;
+width: 200px;
+position: absolute;
+top: 25px;
+background-color: white;}
+
+#inputarea{
+border: 0px,solid,black;
+height: 20px;
+width: 140px;
+position: absolute;
+background-color: rgba(0, 225, 255, 0);
+left: 10px;
+top: 3px;
+outline: none;}
+
+#circlebg{
+width: 35px;
+height: 25px;
+border-radius: 15px;
+position:absolute;
+left: 160px;
+top: 1.5px;
+border: 1px,solid,rgb(0, 0, 0);
+background-color: black;}
+
+#circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    position:absolute;
+    left: 5px;
+    top: 0px;
+    background-image: url(images/buyutec.png);
+    background-size: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);}
+
+/*//////////////////////////FOOTER//////////////////////////////////////*/
+#footer
+{
+    background-color: rgb(47, 23, 0);
+    border: 3px;
+    border-top-color: rgb(0, 0, 0);
+    border-top-style: solid;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    left: 0px;
+    padding: 0px;
+    margin: 0px;
+    top: 345%;
+}
+.areas
+{
+    text-align: left;
+    border: 0px,solid,white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    width: 30%;
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+    top: 50px;
+}
+#aboutarea
+{
+    
+    left: 3%;
+}
+
+#socialmarea
+{
+   
+    left: 45%;
+}
+#contactarea
+{
+    left: 69%;
+}
+
+.contacticons
+{
+    border: 0px,solid,black;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    background-size: 100%;
+    background-position: 0px;
+}
+.contacttexts
+{
+    position: absolute;
+    left: 30px;
+}
+
+.links
+{   
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+
+#stitle
+{
+    position: absolute;
+    left: 3px;
+}
+
+#facebook
+{   
+    
+    top: 70px;
+    background-image: url(images/facebook.png);
+    
+}
+
+#instagram
+{   
+    
+    top: 110px;
+    background-image: url(images/instagram.png);
+}
+
+#twitter
+{   
+    
+    top: 150px;
+    background-image: url(images/twitter.png);
+    background-size: 88%;
+    background-position: 2.5px;
+    
+}
+
+#adress
+{   
+    top: 70px;
+    background-image: url(images/adress.png);
+    background-size: 97%;
+    background-position: 0.5px,0.5px;
+}
+
+#phone
+{   
+    top: 110px;
+    background-image: url(images/phone.png);
+}
+
+#email
+{   
+    top: 150px;
+    background-image: url(images/mail.png);
+    background-size: 88%;
+    background-position: 2px,0px;
+}
