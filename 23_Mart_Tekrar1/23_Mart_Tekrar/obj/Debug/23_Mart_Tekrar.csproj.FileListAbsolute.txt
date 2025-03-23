@@ -1,0 +1,7 @@
+C:\Users\umitg\Desktop\23_Mart_Tekrar\23_Mart_Tekrar\bin\Debug\23_Mart_Tekrar.exe.config
+C:\Users\umitg\Desktop\23_Mart_Tekrar\23_Mart_Tekrar\bin\Debug\23_Mart_Tekrar.exe
+C:\Users\umitg\Desktop\23_Mart_Tekrar\23_Mart_Tekrar\bin\Debug\23_Mart_Tekrar.pdb
+C:\Users\umitg\Desktop\23_Mart_Tekrar\23_Mart_Tekrar\obj\Debug\23_Mart_Tekrar.csproj.AssemblyReference.cache
+C:\Users\umitg\Desktop\23_Mart_Tekrar\23_Mart_Tekrar\obj\Debug\23_Mart_Tekrar.csproj.CoreCompileInputs.cache
+C:\Users\umitg\Desktop\23_Mart_Tekrar\23_Mart_Tekrar\obj\Debug\23_Mart_Tekrar.exe
+C:\Users\umitg\Desktop\23_Mart_Tekrar\23_Mart_Tekrar\obj\Debug\23_Mart_Tekrar.pdb

@@ -1,0 +1,10 @@
+C:\Users\umitg\Desktop\23_Mart_Tekrar(Form)\23_Mart_Tekrar(Form)\bin\Debug\23_Mart_Tekrar(Form).exe.config
+C:\Users\umitg\Desktop\23_Mart_Tekrar(Form)\23_Mart_Tekrar(Form)\bin\Debug\23_Mart_Tekrar(Form).exe
+C:\Users\umitg\Desktop\23_Mart_Tekrar(Form)\23_Mart_Tekrar(Form)\bin\Debug\23_Mart_Tekrar(Form).pdb
+C:\Users\umitg\Desktop\23_Mart_Tekrar(Form)\23_Mart_Tekrar(Form)\obj\Debug\23_Mart_Tekrar(Form).csproj.AssemblyReference.cache
+C:\Users\umitg\Desktop\23_Mart_Tekrar(Form)\23_Mart_Tekrar(Form)\obj\Debug\_23_Mart_Tekrar_Form_.Form1.resources
+C:\Users\umitg\Desktop\23_Mart_Tekrar(Form)\23_Mart_Tekrar(Form)\obj\Debug\_23_Mart_Tekrar_Form_.Properties.Resources.resources
+C:\Users\umitg\Desktop\23_Mart_Tekrar(Form)\23_Mart_Tekrar(Form)\obj\Debug\23_Mart_Tekrar(Form).csproj.GenerateResource.cache
+C:\Users\umitg\Desktop\23_Mart_Tekrar(Form)\23_Mart_Tekrar(Form)\obj\Debug\23_Mart_Tekrar(Form).csproj.CoreCompileInputs.cache
+C:\Users\umitg\Desktop\23_Mart_Tekrar(Form)\23_Mart_Tekrar(Form)\obj\Debug\23_Mart_Tekrar(Form).exe
+C:\Users\umitg\Desktop\23_Mart_Tekrar(Form)\23_Mart_Tekrar(Form)\obj\Debug\23_Mart_Tekrar(Form).pdb
