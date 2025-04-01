@@ -1,0 +1,474 @@
+body
+{
+    background-image: url(images/coffeebackground.png);
+    background-size: 11%;
+    background-color: rgb(69, 38, 14);
+}
+a, a:link, a:visited, a:active
+{
+    text-decoration-color: white;
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    color: rgba(255, 255, 255, 0.271);
+}
+#header {
+    padding: 0;
+    margin: 0; /* Tüm kenarlardan boşluğu kaldır */
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    position: fixed; /* Header'ı sabitle */
+    top: 0; /* En yukarı yerleştir */
+    left: 0; /* Sol hizaya oturt */
+    background-color: rgb(47, 31, 12); /* Sayfa içeriğiyle çakışmayı önlemek için arkaplan rengi ekleyebilirsin */
+    z-index: 1000; /* Diğer öğelerin üstünde kalmasını sağlar */
+    border: 1px;
+    border-bottom: 5px solid rgb(31, 16, 0);
+}
+
+#background
+{   padding-top: 1%;
+    padding-bottom: 1%;
+    width: 90%;
+    height: auto;
+    background-color: rgba(222, 184, 135, 0.317);
+    border: 0px solid rgb(255, 0, 0);
+    border-radius: 15px;
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-bottom: 1.5%;
+}
+/*//////////////////////////FOOTER///////////////////////////////////*/
+#footer
+{
+    
+    background-color: rgb(47, 23, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-top: 5px solid rgb(31, 16, 0);
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    left: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    
+}
+.areas
+{
+    text-align: left;
+   
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    width: 30%;
+    height: 200px;
+    
+   
+    margin-top: 3%;
+}
+#aboutarea
+{
+    left: 3%;
+}
+#hakkimizda
+{
+margin-left: 0px;
+}
+#socialmarea
+{
+   
+    left: 45%;
+}
+#contactarea
+{
+    left: 69%;
+}
+
+.contacticons
+{
+    border: 0px,solid,black;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    background-size: 100%;
+    background-position: 0px;
+}
+.contacttexts
+{
+    position: absolute;
+    left: 30px;
+}
+
+.links
+{   
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 1%;
+}
+
+#stitle
+{
+    position: absolute;
+    left: 3px;
+}
+
+#facebook
+{   
+    
+    margin-top: 12%;
+    background-image: url(images/facebook.png);
+    
+}
+
+#instagram
+{   
+    
+    top: 110px;
+    background-image: url(images/instagram.png);
+}
+
+#twitter
+{   
+    
+    top: 150px;
+    background-image: url(images/twitter.png);
+    background-size: 88%;
+    background-position: 2.5px;
+    
+}
+
+#adress
+{   
+    top: 70px;
+    background-image: url(images/adress.png);
+    background-size: 97%;
+    background-position: 0.5px,0.5px;
+}
+
+#phone
+{   
+    top: 110px;
+    background-image: url(images/phone.png);
+}
+
+#email
+{   
+    top: 150px;
+    background-image: url(images/mail.png);
+    background-size: 88%;
+    background-position: 2px,0px;
+}
+/*//////////////////////////ESPRESSO///////////////////////////////////*/
+#espresso
+{
+    background-color: rgb(138, 83, 0);
+    margin-top: 0%;
+    padding-top: 0%;
+}
+#esphoto
+{
+    background-image: url(images/espresso.jpeg);
+}
+#esbox
+{
+   background-color:  rgb(163, 106, 21);
+}
+
+#esboxphoto
+{
+    background-image: url(images/espressofoto.jpeg);
+}
+/*//////////////////////////AMERICANO///////////////////////////////////*/
+
+#americano
+{
+    background-color: rgb(53, 32, 0);
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-top: 1%;
+}
+#amephoto
+{
+    background-image: url(images/americano.jpeg);
+}
+#amebox
+{
+   background-color: rgb(88, 59, 15);
+}
+
+#ameboxphoto
+{
+    background-image: url(images/americanofoto.jpeg);
+
+}
+#ametext
+{
+    margin-left: 1%;
+}
+
+/*//////////////////////////LATTE///////////////////////////////////*/
+
+#latte
+{
+    background-color: rgb(149, 101, 29);
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-top: 1%;
+}
+#laphoto
+{
+    background-image: url(images/latte.jpeg);
+}
+#labox
+{
+   background-color: rgb(211, 183, 135);
+}
+
+#laboxphoto
+{
+    background-image: url(images/lattemasa.jpeg);
+
+}
+#latext
+{
+    margin-left: 3%;
+}
+
+
+
+/*//////////////////////////MOCHA///////////////////////////////////*/
+
+#mocha
+{
+    background-color: rgb(33, 22, 6);
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-top: 1%;
+}
+#mophoto
+{
+    background-image: url(images/mochaust.jpeg);
+}
+#mobox
+{
+   background-color: rgb(139, 81, 0);
+}
+
+#moboxphoto
+{
+    background-image: url(images/mochamasa1.jpeg);
+
+}
+#motext
+{
+    margin-left: 3%;
+}
+
+/*//////////////////////////MACCHIATO///////////////////////////////////*/
+
+#macchiato
+{
+    background-color: rgb(172, 89, 0);
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-top: 1%;
+}
+#maphoto
+{
+    background-image: url(images/macust.jpeg);
+}
+#mabox
+{
+   background-color: rgb(208, 154, 79);
+}
+
+#maboxphoto
+{
+    background-image: url(images/macmasa.jpeg);
+
+}
+
+#matext
+{
+    margin-left: 1%;
+}
+
+/*//////////////////////////CAPPUCCINO///////////////////////////////////*/
+
+#cappuccino
+{
+    background-color: rgb(133, 69, 0);
+    margin-top: 0%;
+    padding-top: 0%;
+    margin-top: 1%;
+}
+#caphoto
+{
+    background-image: url(images/capust.jpeg);
+}
+#cabox
+{
+   background-color: rgb(186, 120, 28);
+}
+
+#caboxphoto
+{
+    background-image: url(images/capmasa.jpeg);
+
+}
+
+#catext
+{
+    margin-top: -0.5%;
+    margin-left: 1%;
+    font-size: 37px;
+}
+/*//////////////////////////CLASSES///////////////////////////////////*/
+
+
+/*//////////////////////////COFFIES///////////////////////////////////*/
+
+.coftitle
+{
+    margin-top: 2%;
+    margin-left: 10%;
+    width: 80%;
+    height: 100px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border: 0px solid rgb(98, 255, 0);
+}
+
+.titlephoto
+{
+    margin: 0,0,0,0;
+    
+    width: 70%;
+    height: 100px;
+    border-radius: 40px;
+    border: 0px solid rgb(0, 204, 255);
+    margin-left:15%;
+    margin-top: 0%;
+    z-index: 1000px;
+    
+    background-size: 100%;
+    background-position: -1px center, 1px center;
+}
+.coftext
+{
+
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: -0.8%;
+}
+.cofbox
+{ 
+    margin-top: 0%;
+    margin-left: 10%;
+    width: 80%;
+    height: 500px;
+    border: 0px solid black;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding-top: 1% ;
+}
+
+.cofbutton
+{
+    height: 80px;
+    width: 80px;
+    background-image: url(images/DownArrow1.png);
+    background-size: 100%;
+    rotate: 180deg;
+    position: absolute;
+    margin-top: -5.5%;
+    margin-left: 65%;
+}
+
+.cofphoto
+{
+    width: 450px;
+    height: 450px;
+    background-size: 100%;
+    margin-left: 2%;
+    border-radius: 55px;
+    margin-top: 1.5%;
+}
+.cofinfo
+{
+    width: 790px;
+    height: 435px;
+    
+    margin-left: 38%;
+    border-radius: 55px;
+    margin-top: -33%;
+   
+    background-color: white;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+.cofinfotext{
+
+    
+    font-size: large;
+    font-style: italic;
+    font-family:cursive;
+    
+}
+
+/*//////////////////////////TITLE///////////////////////////////////*/
+
+#Namespace
+{
+    width: 300px;
+    height: 50px;
+
+    
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+
+#anasayfa
+{
+margin-left: 70%;
+}
+
+#hakkinda
+{
+    margin-left: 80%;
+}
+
+
+#kahveler
+{
+    margin-left: 90%;
+}
+
+
+
+
+.links
+{
+color: white;
+margin-top: 2%;
+position: absolute;
+font-size: 30px;
+
+}
+.links:hover
+{
+    color: rgba(255, 255, 255, 0.192);
+    display: block;
+}

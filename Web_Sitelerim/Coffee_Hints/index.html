@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-vidth, initial-scale=1.0">
+    <title>Coffee Hints</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/site_background_coffee.png" type="image/png">
+</head>
+<body>
+    <!--////////////////////////////////////////////////////////HEADER/////////////////////////////////////////////////////////////////////////////////////////////-->
+    <header>
+        <div id="header">
+            <div id="Namespace"> <a href="">COFFEE HINTS</a></div>
+            <div>
+                <p id="anasayfa" class="links"><u><a href="">Anasayfa</a></u></p>
+                <p id="hakkinda" class="links"><u><a href="">Hakkında</a></u></p>
+                <p id="kahveler" class="links"><u><a href="">Kahveler</a></u></p>
+            </div>
+        </div>
+    </header>
+ <!--////////////////////////////////////////////////////////COFFIES/////////////////////////////////////////////////////////////////////////////////////////////-->
+    <div id="background">
+        <div id="espresso" class="coftitle">
+            <div class="coftext"><p>Espresso</p></div>
+            <div id="esphoto" class="titlephoto"></div>
+            <button onclick="esbutton()" style="background: none; border: 0px; outline: none;">
+                <div id="esbutton" class="cofbutton"></div>
+            </button>
+        </div>
+ <!--////////////////////////////////////////////////////////ESPRESSO/////////////////////////////////////////////////////////////////////////////////////////////-->
+        <div id="esbox" class="cofbox">
+            <div id="esboxphoto" class="cofphoto"></div> 
+            <div id="esboxinfo" class="cofinfo">
+                <div class="cofinfotext">
+                    <p>Espresso, yoğun ve kıvamlı bir kahve türüdür. İnce çekilmiş kahve çekirdeklerinin yüksek basınç altında kısa sürede demlenmesiyle elde edilir.</p>
+                    <p>Genellikle küçük fincanlarda servis edilir ve kahve bazlı birçok içeceğin temelini oluşturur.</p>
+                    <p>Espresso, kahve tutkunları için güçlü aroması ve zengin tadıyla vazgeçilmez bir seçenektir.</p>
+                </div>
+            </div>
+        </div>
+ <!--////////////////////////////////////////////////////////AMERICANO/////////////////////////////////////////////////////////////////////////////////////////////-->
+        <div id="americano" class="coftitle">
+            <div id="ametext" class="coftext"><p>Americano</p></div>
+            <div id="amephoto" class="titlephoto"></div>
+            <button onclick="amebutton()" style="background: none; border: 0px; outline: none;"><div id="amebutton" class="cofbutton"></div></button>
+        </div>
+
+        <div id="amebox" class="cofbox">
+            <div id="ameboxphoto" class="cofphoto"></div>
+            <div id="ameboxinfo" class="cofinfo">
+                <div class="cofinfotext">
+                    <p>Americano, espressoya sıcak su eklenmesiyle hazırlanan hafif içimli bir kahve türüdür.</p>
+                    <p>İkinci Dünya Savaşı sırasında Amerikan askerlerinin espressoyu yoğun bulmaları üzerine ortaya çıkmış ve bu adı almıştır.</p>
+                    <p>Espresso bazlı olmasına rağmen su eklenmesi, kahvenin yoğunluğunu azaltarak daha uzun süre içime uygun hale getirir.</p>
+                    <p>Hazırlanışında kullanılan su miktarı, kahvenin lezzet profilini doğrudan etkiler. Sade içilebildiği gibi süt veya tatlandırıcılarla da tercih edilebilir.</p>
+                    <p>Genellikle sabah kahvaltıları veya hafif bir kahve keyfi için tercih edilen americano, sade ve yumuşak bir kahve deneyimi sunmak isteyenlerin favorilerindendir.</p>
+                </div>
+            </div>
+        </div>
+ <!--////////////////////////////////////////////////////////LATTE/////////////////////////////////////////////////////////////////////////////////////////////-->
+        <div id="latte" class="coftitle">
+            <div id="latext" class="coftext"><p>Latte</p></div>
+            <div id="laphoto" class="titlephoto"></div>
+            <button onclick="labutton()" style="background: none; border: 0px; outline: none;"><div id="labutton" class="cofbutton"></div></button>
+        </div>
+
+        <div id="labox" class="cofbox">
+            <div id="laboxphoto" class="cofphoto"></div>
+            <div id="laboxinfo" class="cofinfo">
+                <div class="cofinfotext">
+                    <p>Latte, espresso ve buharda ısıtılmış sütün mükemmel uyumuyla hazırlanan popüler bir kahve çeşididir.</p>
+                    <p>İtalyanca'da "süt" anlamına gelen "latte", adını içeriğindeki bol sütten alır.</p>
+                    <p>Genellikle üzerine süt köpüğü eklenerek servis edilir ve isteğe bağlı olarak çeşitli şuruplar veya baharatlarla tatlandırılabilir.</p>
+                    <p>Latte, kahve ve sütün yumuşak ve dengeli birleşimini sevenler için ideal bir seçenektir.</p>
+                    <p>Sabahları güne zinde başlamak veya gün içinde keyifli bir mola vermek için sıklıkla tercih edilir.</p>
+                </div>
+            </div>
+        </div>
+ <!--////////////////////////////////////////////////////////MOCHA/////////////////////////////////////////////////////////////////////////////////////////////-->
+        <div id="mocha" class="coftitle">
+            <div id="motext" class="coftext"><p>Mocha</p></div>
+            <div id="mophoto" class="titlephoto"></div>
+            <button onclick="mobutton()" style="background: none; border: 0px; outline: none;"><div id="mobutton" class="cofbutton"></div></button>
+        </div>
+
+        <div id="mobox" class="cofbox">
+            <div id="moboxphoto" class="cofphoto"></div>
+            <div id="moboxinfo" class="cofinfo">
+                <div class="cofinfotext">
+                    <p>Mocha, espresso, sıcak süt ve çikolata şurubunun birleşiminden oluşan tatlı ve zengin bir kahve türüdür.</p>
+                    <p>İsmini Yemen’in Mocha limanından alan bu kahve, çikolata ve kahve aromalarının dengeli uyumunu sunar.</p>
+                    <p>Genellikle üstüne çırpılmış krema eklenerek servis edilir ve isteğe bağlı olarak kakao tozu veya çikolata parçacıklarıyla süslenir.</p>
+                    <p>Tatlı yapısıyla kahveye yeni başlayanlar için ideal bir seçenek olan mocha, çikolata severlerin favorileri arasındadır.</p>
+                    <p>Kahve keyfine tatlı bir dokunuş yapmak isteyenlerin sıkça tercih ettiği bu içecek, hem sıcak hem de soğuk şekilde hazırlanabilir.</p>
+                    <p>Mocha, kahvenin yoğun aroması ile çikolatanın tatlı lezzetini bir araya getirerek damakta benzersiz bir deneyim sunar.</p>
+                </div>
+            </div>
+        </div>
+<!--////////////////////////////////////////////////////////MACCHIATO/////////////////////////////////////////////////////////////////////////////////////////////-->
+        <div id="macchiato" class="coftitle">
+            <div id="matext" class="coftext"><p>Macchiato</p></div>
+            <div id="maphoto" class="titlephoto"></div>
+            <button onclick="mabutton()" style="background: none; border: 0px; outline: none;"><div id="mabutton" class="cofbutton"></div></button>
+        </div>
+
+        <div id="mabox" class="cofbox">
+            <div id="maboxphoto" class="cofphoto"></div>
+            <div id="maboxinfo" class="cofinfo">
+                <div class="cofinfotext">
+                    <p>Macchiato, espresso shot’unun üzerine az miktarda süt köpüğü eklenmesiyle hazırlanan yoğun ve aromatik bir kahve türüdür.</p>
+                    <p>İtalyanca “lekeli” anlamına gelen ismi, sütün espressoyu hafifçe renklendirmesinden gelir.</p>
+                    <p>Sade bir espressoya göre yumuşak, latteye göre ise daha güçlü bir tada sahiptir.</p>
+                    <p>İki ana türü vardır: sıcak sütle yapılan klasik macchiato ve karamel şurubu ile zenginleştirilen karamel macchiato.</p>
+                    <p>Yoğun kahve tadını seven ancak hafif bir süt dokunuşu isteyenlerin favorisi olan macchiato, sade kahve içmeyi sevenlere alternatif bir deneyim sunar.</p>
+                </div>
+            </div>
+        </div>
+<!--////////////////////////////////////////////////////////CAPPUCCINO/////////////////////////////////////////////////////////////////////////////////////////////-->
+        <div id="cappuccino" class="coftitle">
+            <div id="catext" class="coftext"><p>Cappuccino</p></div>
+            <div id="caphoto" class="titlephoto"></div>
+            <button onclick="cabutton()" style="background: none; border: 0px; outline: none;"><div id="cabutton" class="cofbutton"></div></button>
+        </div>
+
+        <div id="cabox" class="cofbox">
+            <div id="caboxphoto" class="cofphoto"></div>
+            <div id="caboxinfo" class="cofinfo">
+                <div class="cofinfotext">
+                    <p>Cappuccino, eşit oranlarda espresso, sıcak süt ve süt köpüğünden oluşan klasik bir kahve türüdür.</p>
+                    <p>İtalyan kökenli olan bu içecek, adını Kapuçin keşişlerinin kahverengi cüppelerinden almıştır.</p>
+                    <p>Zengin köpüğü, kahvenin sıcaklığını korurken kadifemsi bir içim deneyimi sunar.</p>
+                    <p>Genellikle tarçın veya kakao tozu ile süslenerek sunulur.</p>
+                    <p>Kahvaltılarda tercih edilen cappuccino, yoğun kahve tadını yumuşak sütle dengeleyerek zengin bir lezzet profili oluşturur.</p>
+                    <p>Sade bir kahve keyfi arayanların sıkça tercih ettiği bu klasik içecek, kahve dünyasının vazgeçilmezlerinden biridir.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<footer>
+    <div id="footer">
+        <div id="aboutarea" class="areas">
+            <p><h1 id="hakkimizda">HAKKIMIZDA</h1></p>
+            <p>Bu site popüler olarak tüketilen kahveler hakkında bilgi vermektedir.</p>
+            <p>Verilen bilgiler internet üzerindeki güvenilir kaynaklardan araştırılarak elde edilmiştir.</p>  
+        </div>
+
+        <div id="socialmarea" class="areas">
+
+            <h1 id="stitle">SOSYAL MEDYA</h1>
+
+            <div id="facebook" class="contacticons">
+                <div class="contacttexts"><p class="links"><a href="">Facebook</a></p></div>
+            </div>
+
+            <div id="instagram" class="contacticons">
+                <div class="contacttexts"><p class="links"><a href="">Instagram</a></p></div>
+            </div>
+
+            <div id="twitter" class="contacticons">
+                <div class="contacttexts"><p class="links"><a href="">Twitter</a></p></div>
+            </div>
+        </div>
+
+        <div id="contactarea" class="areas">
+
+            <h1 id="ctitle">İLETİŞİM</h1>
+
+            <div id="adress" class="contacticons">
+                <div class="contacttexts"><p class="links">Adres</p></div>
+            </div>
+
+            <div id="phone" class="contacticons">
+                <div class="contacttexts"><p class="links">Telefon</p></div>
+            </div>
+
+            <div id="email" class="contacticons">
+                <div class="contacttexts"><p class="links">Gmail</p></div>
+            </div>    
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
