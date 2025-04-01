@@ -16,15 +16,15 @@ a:hover
 }
 #header {
     padding: 0;
-    margin: 0; /* Tüm kenarlardan boşluğu kaldır */
+    margin: 0; 
     width: 100%;
     height: 100px;
     border: 1px solid black;
-    position: fixed; /* Header'ı sabitle */
-    top: 0; /* En yukarı yerleştir */
-    left: 0; /* Sol hizaya oturt */
-    background-color: rgb(47, 31, 12); /* Sayfa içeriğiyle çakışmayı önlemek için arkaplan rengi ekleyebilirsin */
-    z-index: 1000; /* Diğer öğelerin üstünde kalmasını sağlar */
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    background-color: rgb(47, 31, 12);
+    z-index: 1000; 
     border: 1px;
     border-bottom: 5px solid rgb(31, 16, 0);
 }
